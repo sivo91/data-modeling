@@ -84,11 +84,13 @@ function totalWords (x) {
 function totalEvenWords(x) {
   let text = x.split(' ')
   console.log(text)
-  let count = 0
+  let count = 1
 
   for(let i = 1; i < text.length; i++) {
+     
     if(text[i].length % 2 === 0) {
-       count++
+      
+       count+=1
     }
   }
 
@@ -98,14 +100,14 @@ function totalEvenWords(x) {
 // odd
 function totalOddWords(t) {
   let text = t.split(' ')
-  let count = 0
+  let count = 1
 
   for(let i = 1; i < text.length; i++) {
     if( text[i].length % 2 === 1) {
       if(text[i] === '') {
         continue
       }
-      count++
+      count+=1
     }
   }
   output.innerHTML = `Your text has ${count} even words.`
@@ -162,7 +164,9 @@ function  findLastLetter(x) {
 }
 
 // avg of letters
-function findAvg(text) {
+function findAvg(t) {
+  let text = t.split('')
+  console.log(text)
   let sum = 0
 
   for(let i = 0; i < text.length; i++) {
@@ -173,7 +177,7 @@ function findAvg(text) {
     }
   }
 
-  sum = sum / 2 
+  sum = sum / 2
   output.innerHTML = `Your average of letter are:  " ${sum} ".`
 }
 
