@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./app.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ </head>
+ <body>
+  
+  <h3 class="text-center mt-3">Data Modeling</h3>
+
+  <div class="container">
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Text</label>
+      <textarea class="form-control input" id="exampleFormControlTextarea1" rows="6"></textarea>
+    </div>
+
+    <select class="form-select my-4" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="even">Even words</option>
+      <option value="odd">Odd words</option>
+      <option value="shortest">Shortest words</option>
+      <option value="longest">Longest words</option>
+      <option value="chars">Total characters</option>
+      <option value="words">Total words</option>
+      <option value="first">First Letter</option>
+      <option value="last">Last Letter</option>
+      <option value="avg">Average Length</option>
+    </select>
+
+  </div>
+
+ <div class="out mx-5">
+  <div class="output"></div>
+ </div>
+
+<div class="d-grid gap-2 my-5">
+  <button class="btn btn-outline-danger reload w-75 mx-auto" type="button">Clear</button>
+</div>
+  
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+ </body>
+ </html>
