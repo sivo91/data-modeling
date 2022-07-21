@@ -1,0 +1,36 @@
+
+ *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ }
+
+
+ .container {
+  position: relative;
+  width: 78%;
+ }
+
+ .btn {
+  position: relative;
+  margin-top: -5px;
+ }
+
+ .btn-box {
+  position: relative;
+  display: flex;
+ }
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+ 
+
+
+
+
+
+

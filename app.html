@@ -13,37 +13,61 @@
   <title>Document</title>
  </head>
  <body>
-  
-  <h3 class="text-center mt-3">Data Modeling</h3>
-
+   
   <div class="container">
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Text</label>
-      <textarea class="form-control input" id="exampleFormControlTextarea1" rows="6"></textarea>
+    <h3 class="text-center m-5">Data Modeling app</h3>
+
+
+ 
+
+   
+  
+
+    
+    <div class="container">
+
+        <section>
+          <h5>generate 1 sentece or select 1-5</h5>
+          <form class="lorem-form">
+            <label for="amount"></label>
+            <input type="number" style="height: 35px;" name="amount" id="amount" placeholder="1">
+
+            <button type="submit" class="btn btn-outline-primary btn-sentence">generate</button>
+            <button class="btn btn-outline-danger reload  mx-auto" type="button">Clear</button>
+         
+          </form>
+          <article class="lorem-text mt-2"></article>
+        </section>
+
+
+      <div class="my-3">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control input" id="exampleFormControlTextarea1" rows="6" placeholder="Insert text and select from menu"></textarea>
+
+      </div>
+    
+      <select class="form-select my-4" aria-label="Default select example">
+        <option selected>select menu</option>
+        <option value="even">even / odd words</option>
+        <option value="shortest">shortest/longest words</option>
+        <option value="chars">total characters</option>
+        <option value="words">total words</option>
+        <option value="first">first Letter</option>
+        <option value="last">last Letter</option>
+        <option value="avg">avg length</option>
+        <option value="count">count letters</option>
+        <option value="rever">reverse sentence</option>
+        <option value="pair">reverse paired word</option>
+        <option value="pairL">reverse each 2 letters</option>
+      </select>
+    
     </div>
-
-    <select class="form-select my-4" aria-label="Default select example">
-      <option selected>Open this select menu</option>
-      <option value="even">Even words</option>
-      <option value="odd">Odd words</option>
-      <option value="shortest">Shortest words</option>
-      <option value="longest">Longest words</option>
-      <option value="chars">Total characters</option>
-      <option value="words">Total words</option>
-      <option value="first">First Letter</option>
-      <option value="last">Last Letter</option>
-      <option value="avg">Average Length</option>
-    </select>
-
+    
+    <div class="out mx-5">
+      <div class="output mx-5"></div>
+    </div>
+    
   </div>
-
- <div class="out mx-5">
-  <div class="output"></div>
- </div>
-
-<div class="d-grid gap-2 my-5">
-  <button class="btn btn-outline-danger reload w-75 mx-auto" type="button">Clear</button>
-</div>
   
 
 
