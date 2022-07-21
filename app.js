@@ -1,1 +1,261 @@
-const _0x3d1e59=_0x1fef;(function(_0x4e41f1,_0x49092a){const _0x2f8d1d=_0x1fef,_0x4298ae=_0x4e41f1();while(!![]){try{const _0x4fb783=-parseInt(_0x2f8d1d(0x155))/0x1*(parseInt(_0x2f8d1d(0x159))/0x2)+parseInt(_0x2f8d1d(0x13c))/0x3+-parseInt(_0x2f8d1d(0x14b))/0x4+-parseInt(_0x2f8d1d(0x139))/0x5+-parseInt(_0x2f8d1d(0x16b))/0x6+-parseInt(_0x2f8d1d(0x146))/0x7+-parseInt(_0x2f8d1d(0x149))/0x8*(-parseInt(_0x2f8d1d(0x153))/0x9);if(_0x4fb783===_0x49092a)break;else _0x4298ae['push'](_0x4298ae['shift']());}catch(_0x768bf8){_0x4298ae['push'](_0x4298ae['shift']());}}}(_0x354a,0x7f7a1));const sentence=[_0x3d1e59(0x162),_0x3d1e59(0x16e),'He\x20colored\x20deep\x20space\x20a\x20soft\x20yellow.',_0x3d1e59(0x168),'He\x20colored\x20deep\x20space\x20a\x20soft\x20yellow.'],form=document[_0x3d1e59(0x16c)](_0x3d1e59(0x15b)),amount=document[_0x3d1e59(0x166)](_0x3d1e59(0x15d)),result=document['querySelector'](_0x3d1e59(0x14a)),input=document[_0x3d1e59(0x16c)](_0x3d1e59(0x165)),select=document[_0x3d1e59(0x16c)](_0x3d1e59(0x14d)),modal=document[_0x3d1e59(0x16c)](_0x3d1e59(0x141)),output=document[_0x3d1e59(0x16c)](_0x3d1e59(0x140)),reload=document[_0x3d1e59(0x16c)](_0x3d1e59(0x172));document[_0x3d1e59(0x16f)](_0x3d1e59(0x16d),()=>{const _0x4a6d48=_0x3d1e59;select[_0x4a6d48(0x16f)]('input',handleSelect),form['addEventListener'](_0x4a6d48(0x163),function(_0x449c02){const _0x7c4b2c=_0x4a6d48;_0x449c02[_0x7c4b2c(0x13d)]();const _0x19a1a7=parseInt(amount[_0x7c4b2c(0x136)]);random=Math[_0x7c4b2c(0x158)](Math[_0x7c4b2c(0x154)]()*sentence[_0x7c4b2c(0x142)]);if(isNaN(_0x19a1a7)||_0x19a1a7<=0x0||_0x19a1a7>0x4)result[_0x7c4b2c(0x150)]=_0x7c4b2c(0x15a)+sentence[random]+'</p>';else{let _0xe8786a=sentence[_0x7c4b2c(0x156)](0x0,_0x19a1a7);_0xe8786a=_0xe8786a[_0x7c4b2c(0x148)](_0x271dac=>{const _0x7a6b74=_0x7c4b2c;return _0x7a6b74(0x144)+_0x271dac+'\x20</p>';})[_0x7c4b2c(0x14c)](''),result[_0x7c4b2c(0x150)]=_0xe8786a;}}),reload[_0x4a6d48(0x16f)](_0x4a6d48(0x14e),()=>{const _0x560201=_0x4a6d48;location[_0x560201(0x161)]();});});function handleSelect(_0x363c10){const _0x38299e=_0x3d1e59;let _0x993183=_0x363c10[_0x38299e(0x13a)][_0x38299e(0x136)],_0x7e94ac=input[_0x38299e(0x136)];if(_0x993183===_0x38299e(0x15f))totalCharacters(_0x7e94ac);else{if(_0x993183==='words')totalWords(_0x7e94ac);else{if(_0x993183===_0x38299e(0x157))totalEvenWords(_0x7e94ac);else{if(_0x993183===_0x38299e(0x147))shortesWord(_0x7e94ac);else{if(_0x993183===_0x38299e(0x170))findFirstLetter(_0x7e94ac);else{if(_0x993183===_0x38299e(0x164))findLastLetter(_0x7e94ac);else{if(_0x993183===_0x38299e(0x151))findAvg(_0x7e94ac);else{if(_0x993183==='count')countLetters(_0x7e94ac);else{if(_0x993183===_0x38299e(0x169))reverseSentence(_0x7e94ac);else{if(_0x993183===_0x38299e(0x171))findPairWord(_0x7e94ac);else _0x993183===_0x38299e(0x138)&&reverseLetters(_0x7e94ac);}}}}}}}}}}function totalCharacters(_0x110409){const _0x38af65=_0x3d1e59;let _0x454f51=0x0;for(let _0x33e259=0x0;_0x33e259<_0x110409[_0x38af65(0x142)];_0x33e259++){if(typeof _0x110409[_0x33e259]==='string'){if(_0x110409[_0x33e259]==='\x20')continue;_0x454f51++;}}output[_0x38af65(0x150)]=_0x38af65(0x14f)+_0x454f51+_0x38af65(0x13b);}function totalWords(_0x22ba93){const _0x4b053e=_0x3d1e59;let _0x59acf5=_0x22ba93['split']('\x20');console[_0x4b053e(0x16a)](_0x59acf5);let _0x563955=0x1;for(let _0x408491=0x1;_0x408491<_0x59acf5[_0x4b053e(0x142)];_0x408491++){if(_0x59acf5[_0x408491]==='')continue;_0x563955+=0x1;}output['innerHTML']='Your\x20text\x20has\x20'+_0x563955+_0x4b053e(0x167);}function _0x354a(){const _0x1c14d2=['innerHTML','avg','push','36vRYJER','random','5826VgRATw','slice','even','floor','182DpNTBL','<p\x20class=\x27result\x27>\x20','.lorem-form','Your\x20average\x20of\x20letter\x20are:\x20\x20\x22\x20','amount','reverse','chars','\x20\x22.','reload','The\x20lake\x20is\x20a\x20long\x20way\x20from\x20here.','submit','last','.input','getElementById','\x20words.','She\x20looked\x20into\x20the\x20mirror\x20and\x20saw\x20another\x20person.','rever','log','5415990GYThyj','querySelector','DOMContentLoaded','Purple\x20is\x20the\x20best\x20city\x20in\x20the\x20forest.','addEventListener','first','pair','.reload','value','Your\x20sentence\x20is\x20:\x20\x20\x22\x20','pairL','2781450uTYpXx','target','\x20letters.','2488047TpTmIr','preventDefault','\x20see\x20console.log\x20','Your\x20sentence\x20is:\x20\x22\x20','.output','.modal-body','length','split','\x20<p>\x20','Your\x20first\x20letter\x20is:\x20\x20\x22\x20','6223126qEAnaL','shortest','map','5387544CIcDHI','.lorem-text','491348WQJtzE','join','.form-select','click','Your\x20text\x20has\x20'];_0x354a=function(){return _0x1c14d2;};return _0x354a();}function totalEvenWords(_0x2a33d6){const _0x9393cf=_0x3d1e59;let _0x1c8c65=_0x2a33d6['split']('\x20'),_0x288af2=0x0,_0x30cab7=0x0;for(let _0x414ee1=0x0;_0x414ee1<_0x1c8c65[_0x9393cf(0x142)];_0x414ee1++){if(_0x1c8c65[_0x414ee1][_0x9393cf(0x142)]%0x2===0x0){if(_0x1c8c65[_0x414ee1]==='')continue;_0x288af2+=0x1;}}for(let _0x26f156=0x0;_0x26f156<_0x1c8c65[_0x9393cf(0x142)];_0x26f156++){if(_0x1c8c65[_0x26f156][_0x9393cf(0x142)]%0x2===0x1){if(_0x1c8c65[_0x26f156]==='')continue;_0x30cab7+=0x1;}}output[_0x9393cf(0x150)]=_0x9393cf(0x14f)+_0x288af2+'\x20evens\x20words.\x20'+'\x0a'+('Your\x20text\x20has\x20'+_0x30cab7+'\x20odds\x20words.\x20');}function shortesWord(_0x3d082b){const _0x9bac0a=_0x3d1e59;let _0x8371cf=_0x3d082b[_0x9bac0a(0x143)]('\x20'),_0x53eedb=_0x8371cf[0x0],_0x458300=_0x8371cf[0x0];for(let _0x418d6f=0x0;_0x418d6f<_0x8371cf['length'];_0x418d6f++){_0x8371cf[_0x418d6f][_0x9bac0a(0x142)]<_0x53eedb[_0x9bac0a(0x142)]&&_0x8371cf[_0x418d6f]!==''&&(_0x53eedb=_0x8371cf[_0x418d6f]);}for(let _0x18418e=0x0;_0x18418e<_0x8371cf['length'];_0x18418e++){_0x8371cf[_0x18418e][_0x9bac0a(0x142)]>_0x458300[_0x9bac0a(0x142)]&&(_0x458300=_0x8371cf[_0x18418e]);}output[_0x9bac0a(0x150)]='Your\x20shortest\x20&\x20longest\x20words\x20are:\x20[\x20'+_0x53eedb+'\x20]\x20~\x20[\x20'+_0x458300+'\x20]';}function findFirstLetter(_0xd23ab6){const _0x14295e=_0x3d1e59;let _0x1bccc3=_0xd23ab6[_0x14295e(0x143)]('');console[_0x14295e(0x16a)](_0x1bccc3);let _0x2d3393=_0x1bccc3[0x0];output['innerHTML']=_0x14295e(0x145)+_0x2d3393+_0x14295e(0x160);}function findLastLetter(_0x1b9225){const _0x4d53dc=_0x3d1e59;let _0x3cb72c=_0x1b9225[_0x4d53dc(0x143)]('');console[_0x4d53dc(0x16a)](_0x3cb72c);let _0x53c16d=_0x3cb72c[_0x4d53dc(0x142)]-0x1,_0x5c8da5=_0x3cb72c[_0x53c16d];output[_0x4d53dc(0x150)]='Your\x20last\x20letter\x20is:\x20\x20\x22\x20'+_0x5c8da5+_0x4d53dc(0x160);}function findAvg(_0x4752e5){const _0x198b40=_0x3d1e59;let _0x48bc78=_0x4752e5[_0x198b40(0x143)]('');console[_0x198b40(0x16a)](_0x48bc78);let _0xb1e0e8=0x0;for(let _0x2a1736=0x0;_0x2a1736<_0x48bc78[_0x198b40(0x142)];_0x2a1736++){if(_0x48bc78[_0x2a1736]==='')continue;else _0xb1e0e8++;}_0xb1e0e8=_0xb1e0e8/0x2,output['innerHTML']=_0x198b40(0x15c)+_0xb1e0e8+_0x198b40(0x160);}function countLetters(_0x3fb354){const _0x17285a=_0x3d1e59;let _0x2f034a=_0x3fb354['split']('');console[_0x17285a(0x16a)](_0x2f034a);let _0x1d7d6e={};for(let _0x2b143b=0x0;_0x2b143b<_0x2f034a[_0x17285a(0x142)];_0x2b143b++){_0x1d7d6e[_0x2f034a[_0x2b143b]]===undefined?_0x1d7d6e[_0x2f034a[_0x2b143b]]=0x1:_0x1d7d6e[_0x2f034a[_0x2b143b]]+=0x1;}console[_0x17285a(0x16a)](_0x1d7d6e),alert(_0x17285a(0x13e));}function reverseSentence(_0x4ff521){const _0x2be147=_0x3d1e59;let _0xb491ce=_0x4ff521[_0x2be147(0x143)]('\x20');output[_0x2be147(0x150)]=_0x2be147(0x137)+_0xb491ce['reverse']()+_0x2be147(0x160);}function findPairWord(_0x3d62d6){const _0x343e62=_0x3d1e59;let _0x367e6a=_0x3d62d6['split']('\x20'),_0x4f64ae=[];for(let _0x19e941=0x0;_0x19e941<_0x367e6a[_0x343e62(0x142)];_0x19e941++){_0x367e6a[_0x19e941][_0x343e62(0x142)]%0x2===0x0&&_0x4f64ae[_0x343e62(0x152)](_0x367e6a[_0x19e941]);}_0x4f64ae=_0x4f64ae[_0x343e62(0x15e)](),console[_0x343e62(0x16a)](_0x4f64ae),output['innerHTML']=_0x343e62(0x13f)+_0x4f64ae+'\x20\x22.';}function _0x1fef(_0x282483,_0x5ad7c9){const _0x354a0a=_0x354a();return _0x1fef=function(_0x1fef3e,_0x43da42){_0x1fef3e=_0x1fef3e-0x136;let _0x58ff3c=_0x354a0a[_0x1fef3e];return _0x58ff3c;},_0x1fef(_0x282483,_0x5ad7c9);}function reverseLetters(_0x84929c){const _0x1526d3=_0x3d1e59;let _0x2e0b1d='',_0x157d0f=_0x84929c[_0x1526d3(0x143)]('');for(let _0x250568=0x0;_0x250568<_0x84929c['length'];_0x250568+=0x2){let _0x3aa6f8=_0x157d0f[_0x1526d3(0x156)](_0x250568,_0x250568+0x2),_0x3023bf=_0x3aa6f8[_0x1526d3(0x15e)](),_0x2fcc9b=_0x3023bf['join']('');_0x2e0b1d+=_0x2fcc9b;}console[_0x1526d3(0x16a)](_0x2e0b1d),output[_0x1526d3(0x150)]='\x22\x20'+_0x2e0b1d+'\x20\x22.';}
+const sentence = [
+  `The lake is a long way from here.`,
+  `Purple is the best city in the forest.`,
+  `He colored deep space a soft yellow.`,
+  `She looked into the mirror and saw another person.`,
+  `He colored deep space a soft yellow.`]
+
+const form = document.querySelector('.lorem-form')
+const amount = document.getElementById('amount')
+const result = document.querySelector('.lorem-text')
+
+const input = document.querySelector('.input')
+const select = document.querySelector('.form-select')
+const modal = document.querySelector('.modal-body')
+const output = document.querySelector('.output')
+const reload = document.querySelector('.reload')
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  select.addEventListener('input', handleSelect)
+
+  // form for sentence
+  form.addEventListener('submit', function(e) {
+    e.preventDefault()
+    const value = parseInt(amount.value)
+    
+    random = Math.floor(Math.random() * sentence.length)
+
+    if(isNaN(value) || value <= 0 || value > 4) {
+
+      result.innerHTML = `<p class='result'> ${sentence[random]}</p>`
+    } else {
+      let tempText = sentence.slice(0, value)
+    
+      tempText = tempText.map(item => {
+        return ` <p> ${item} </p>`
+      }).join('')
+
+      result.innerHTML = tempText
+    }
+  })
+
+  // reload e.listener
+  reload.addEventListener('click', () => {
+    location.reload();
+  })
+})
+
+function handleSelect(e) {
+  let x = e.target.value // select action
+  //console.log(x)
+  let text = input.value // text
+  //console.log(text)
+
+      if(x === 'chars') {
+          totalCharacters(text)
+      } else if ( x === 'words' ) {
+          totalWords(text)
+      } else if (x === 'even') {
+          totalEvenWords(text)
+      } else if (x === 'shortest') {
+          shortesWord(text)
+      } else if ( x === 'first' ) {
+          findFirstLetter(text)
+      } else if ( x === 'last' ) {
+        findLastLetter(text)
+      } else if ( x === 'avg') {
+        findAvg(text)
+      } else if ( x === 'count') {
+        countLetters(text)
+      } else if( x === 'rever') {
+        reverseSentence(text)
+      } else if ( x === 'pair') {
+        findPairWord(text)
+      } else if ( x === 'pairL') {
+        reverseLetters(text)
+      }    
+}
+
+
+// chars
+function totalCharacters(text) {
+  
+  let count = 0
+
+  for(let i = 0; i < text.length; i++) {
+
+    if(typeof text[i] === 'string') {
+      if(text[i] === ' ') {
+      continue
+    }
+     count++
+    }
+  }
+   
+  output.innerHTML = `Your text has ${count} letters.`
+}
+
+// words
+function totalWords (x) {
+  let text = x.split(' ')
+  console.log(text)
+  let words = 1
+
+  for(let i = 1; i < text.length; i++) {
+    if(text[i] === '') {
+      continue
+    }
+    words += 1
+  }
+
+  output.innerHTML = `Your text has ${words} words.`
+}
+
+// even & odd
+function totalEvenWords(x) {
+  let text = x.split(' ')
+  
+  let even = 0
+  let odd = 0
+
+  for(let i = 0; i < text.length; i++) {
+    if(text[i].length % 2 === 0) {
+      if(text[i] === '') {
+        continue
+      }
+       even+=1
+    }
+  }
+
+  for(let i = 0; i < text.length; i++) {
+    if( text[i].length % 2 === 1) {
+      if(text[i] === '') {
+        continue
+      }
+      odd+=1
+    }
+  }
+
+
+
+  output.innerHTML = `Your text has ${even} evens ` + '\n' + `and ${odd} odds words. `
+}
+
+
+// shortest
+function shortesWord(t) {
+  let text = t.split(' ')
+
+  let shortest = text[0]
+  let longest = text[0]
+
+  for(let i = 0; i < text.length; i++) {
+    if( text[i].length < shortest.length && text[i] !== '') {
+      shortest = text[i]
+    }
+  }
+ 
+  for(let i = 0; i < text.length; i++) {
+    if( text[i].length > longest.length ) {
+      longest = text[i]
+    }
+  }
+
+  output.innerHTML = `Your shortest & longest words are: [ ${shortest} ] ~ [ ${longest} ]`
+}
+
+
+// first letter
+function findFirstLetter(x) {
+  let text = x.split('')
+  console.log(text)
+
+  let first = text[0]
+   output.innerHTML = `Your first letter is:  " ${first} ".`
+}
+
+// last letter
+function  findLastLetter(x) {
+  let text = x.split('')
+  console.log(text)
+  let last = text.length - 1
+  let lastIndex = text[last]
+
+  output.innerHTML = `Your last character is:  " ${lastIndex} ".`
+}
+
+// avg of letters
+function findAvg(t) {
+  let text = t.split('')
+  console.log(text)
+  let sum = 0
+
+  for(let i = 0; i < text.length; i++) {
+    if(text[i] === '') {
+      continue
+    } else {
+      sum++
+    }
+  }
+
+  sum = sum / 2
+  output.innerHTML = `Your average of letter are:  " ${sum} ".`
+}
+
+// count letter
+function countLetters(x) {
+  let text = x.split('')
+  console.log(text)
+
+  let obj = {}
+  for(let i = 0; i < text.length; i++) {
+    if(obj[text[i]] === undefined) {
+      obj[text[i]] = 1
+    } else {
+      obj[text[i]] +=1
+    }
+  }
+ 
+  console.log(obj)
+  alert(' see console.log ')
+}
+
+function reverseSentence(x) {
+  let text = x.split(' ')
+  //console.log(text.reverse())
+  output.innerHTML = `Your sentence is :  " ${text.reverse()} ".`
+}
+
+function findPairWord(x) {
+  let text = x.split(' ')
+   let pairWords = []
+  
+  for( let i = 0; i < text.length; i++) {
+    if( text[i].length % 2 === 0 ) {
+      pairWords.push(text[i])
+    } 
+  }
+ 
+ pairWords = pairWords.reverse()
+
+  console.log(pairWords)
+  output.innerHTML = `Your sentence is: " ${pairWords} ".`
+}
+
+function reverseLetters(x) {
+  let result = ''
+  let chars = x.split('')
+
+  for(let i = 0; i < x.length; i+=2) {
+    
+    let currentSlice = chars.slice(i, i + 2)
+    let reversSlide = currentSlice.reverse()
+    let joinSlice = reversSlide.join('')
+    result += joinSlice
+    
+  }
+
+  console.log(result)
+  output.innerHTML = `" ${result} ".`
+}
